@@ -1,3 +1,4 @@
-body {
-  background-color:rgb(120, 120, 194);
-}
+@import "./body";
+@import "./keyboard";
+@import "./buttonRows";
+@import "./button";
