@@ -11,6 +11,9 @@ module.exports = (env, options) => {
     mode: isProduction ? 'production' : 'development',
     devtool: isProduction ? false : 'inline-source-map',
     watch: !isProduction,
+    watchOptions: {
+      poll: true
+    },
     entry: ['./src/index.js', './src/sass/style.scss'],
     output: {
       path: path.join(__dirname, '/dist'),
