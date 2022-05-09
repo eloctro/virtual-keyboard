@@ -8,4 +8,19 @@
   align-items: center;
   padding: 10px 5px 0;
   font-size: 2rem;
+  &:hover {
+    background: rgb(164, 164, 213);
+    cursor: pointer;
+  }
+
+  &:active {
+    background: rgb(222, 133, 133);
+  }
+}
+
+.button.active {
+  transition: ease-in-out 0.1s;
+  //  min-width: 40px;
+  // height: 40px;
+  background: rgb(222, 133, 133);
 }

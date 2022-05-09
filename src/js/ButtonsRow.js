@@ -1,7 +1,7 @@
-export class ButtonRows {
+export class ButtonsRow {
   constructor() {
     this.elem = document.createElement('div');
-    this.class = 'buttonRows';
+    this.class = 'buttonsRow';
   }
 
   appendTo(parent) {
