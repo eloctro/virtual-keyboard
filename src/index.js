@@ -1,3 +1,4 @@
+import { TextDiv } from './js/TextDiv';
 import { TextArea } from './js/TextArea';
 import { Keyboard } from './js/Keybord';
 import { renderButtons } from './js/renderButtons';
@@ -5,6 +6,7 @@ import { renderButtons } from './js/renderButtons';
 const body = document.querySelector('body');
 let combination = 'key';
 
+new TextDiv().appendTo(body);
 new TextArea().appendTo(body);
 new Keyboard().appendTo(body);
 
