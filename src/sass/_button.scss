@@ -1,0 +1,26 @@
+.button {
+  display: inline-block;
+  min-width: 50px;
+  height: 50px;
+  background: rgb(192, 192, 243);
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  padding: 10px 5px 0;
+  font-size: 2rem;
+  &:hover {
+    background: rgb(164, 164, 213);
+    cursor: pointer;
+  }
+
+  &:active {
+    background: rgb(222, 133, 133);
+  }
+}
+
+.button.active {
+  transition: ease-in-out 0.1s;
+  //  min-width: 40px;
+  // height: 40px;
+  background: rgb(222, 133, 133);
+}
